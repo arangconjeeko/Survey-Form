@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+
+</html>
+
+<form action="output.html" method="GET" enctype="multipart/form-data">
+    <div>
+        Survey Form for Gigachads
+    </div>
+
+    <br>
+
+    <div>
+        <label for="name">Enter your Name: </label>
+        <input type="text" name="name" id="name" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="department">Enter your Department</label>
+        <select name="department" id="department">
+            <option value="_"> </option>
+            <option label="Based-Department" value="based"></option>
+            <option label="LAPD " value="lapd"></option>
+            <option label="NYPD " value="nypd"></option>
+            <option label="Red-pilled  Department" value="red"></option>
+        </select>
+    </div>
+
+    <br>
+
+    <div>
+        Tell us about urself:
+    </div>
+    <textarea for="name" rows="5" cols="50"></textarea>
+
+    <br>
+
+    <div>
+        What form of media do you source for?
+        <div>
+            <label for="Books">Books</label>
+            <input type="checkbox" name="Books" id="Books">
+        </div>
+        <div>
+            <label for="online">Social Media/Website News</label>
+            <input type="checkbox" name="online" id="online">
+        </div>
+        <div>
+            <label for="apps">Mobile Apps</label>
+            <input type="checkbox" name="apps" id="apps">
+        </div>
+        <div>
+            <label for="magazine">Print/Digital Subscription Magazines</label>
+            <input type="checkbox" name="magazine" id="magazine">
+        </div>
+    </div>
+
+    <br>
+
+    <div>
+        Do you go to gym?
+        <div>
+            <label for="yes">Yes</label>
+            <input type="radio" name="gym-goer" id="yes" value="yes">
+        </div>
+        <div>
+            <label for="no">No</label>
+            <input type="radio" name="gym-goer" id="no" value="no">
+        </div>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="movie genre">What movie genre do you watch?</label>
+        <select name="movie genre" id="movie genre">
+            <option value="action">Action</option>
+            <option value="comedy">Comedy</option>
+            <option value="drama">Drama</option>
+            <option value="sci-fi">Sci-Fi</option>
+            <option value="horror">Horror</option>
+        </select>
+    </div>
+
+    <br>
+
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+
+</form>
